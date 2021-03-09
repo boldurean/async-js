@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-temaplte",
+  "name": "async-js",
   "version": "1.0.0",
   "description": "nodejs-boilerplate",
   "main": "index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bdnvsy/nodejs-template.git"
+    "url": "git+https://github.com/bdnvsy/async-js.git"
   },
   "author": "Vasilii Boldurean",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bdnvsy/nodejs-template/issues"
+    "url": "https://github.com/bdnvsy/async-js/issues"
   },
-  "homepage": "https://github.com/bdnvsy/nodejs-template#readme",
+  "homepage": "https://github.com/bdnvsy/async-js#readme",
   "type": "module",
   "jest": {
     "testEnvironment": "node",
