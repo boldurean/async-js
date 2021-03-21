@@ -2,7 +2,7 @@ import fs from 'fs';
 import { jest } from '@jest/globals';
 import print from '../src/printer.js';
 
-test('readFile', (done) => {
+test('readFile', () => new Promise((done) => {
   const results = [];
   const { log } = console;
   console.log = jest.fn((...args) => {
@@ -16,4 +16,4 @@ test('readFile', (done) => {
     expect(results).toEqual(expected);
     done();
   }, 2000);
-});
+}));
